@@ -14,11 +14,14 @@ p {
 }
 
 nav {
+   position: fixed;
    height: 60px;
    background-color: #000f24;
    padding: 6px 40px 6px 40px;
    display: flex;
    justify-content: center;
+   width: 100%;
+   z-index: 1;
 }
 
 .nav-container {
@@ -55,7 +58,6 @@ nav {
    position: relative;
    align-items: center;
    margin-bottom: 700px;
-
 }
 
 .hero-container {
@@ -95,6 +97,18 @@ nav {
    bottom: 0;
    left: 50%;
    border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+   .foto {
+      max-width: 30%;
+      
+      top: 160px;
+      right: 0;
+      bottom: 0;
+      left: 60%;
+      border-radius: 100%;
+   }
 }
 
 
@@ -197,13 +211,20 @@ nav {
 .contacto {
    color: #EFEFED;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    padding: 100px 100px;
+   align-items: center;
+}
+
+.contacto-titulo {
+   font-size: 40px;
+   font-family: 'Ubuntu', sans-serif;
+   padding-bottom: 40px;
 }
 
 form {
    display: flex;
-   
 }
 
 ul {
@@ -247,26 +268,27 @@ textarea {
 footer {
    background-color: #7f3e9b;
    display: flex;
-   flex-direction: column;
    justify-content: center;
-   padding: 100px 100px;
+   padding: 100px 0 20px 0;
+   align-items: center;
 }
 
 .footer-container {
    display: flex;
+   flex-direction: column;
    max-width: 900px;
-   justify-content: space-between;
-   width: 100%;
    align-items: center;
 }
 
-.mail-container {
-   display: flex;
-   text-decoration: none;
+.titulo-social-container {
+   color: #ffb818;
+   font-size: 20px;
+   padding-bottom: 40px;
 }
 
 .social-container {
    display: flex;
+   justify-content: space-between;
    gap: 24px;
    align-items: center;
 }
