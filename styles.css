@@ -162,6 +162,11 @@ nav {
 .proyectos-items {
    padding: 0 30px 0 30px;
    line-height: 1.3;
+   text-decoration: none;
+}
+
+.proyecto-descripcion {
+   padding: 10px 0 10px 0;
 }
 
 
@@ -182,7 +187,7 @@ nav {
    align-items: center;
 }
 
-.icono {
+.icono-skill {
    width: 120px;
 }
 
@@ -190,7 +195,6 @@ nav {
 /* SECCION 5 */
 
 .contacto {
-   background-color: #003c8d;
    color: #EFEFED;
    display: flex;
    justify-content: center;
@@ -199,7 +203,7 @@ nav {
 
 form {
    display: flex;
-
+   
 }
 
 ul {
@@ -237,3 +241,43 @@ textarea {
    padding: 3px;
 }
 
+
+/* SECCION 6 */
+
+footer {
+   background-color: #7f3e9b;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 100px 100px;
+}
+
+.footer-container {
+   display: flex;
+   max-width: 900px;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+
+.mail-container {
+   display: flex;
+   text-decoration: none;
+}
+
+.social-container {
+   display: flex;
+   gap: 24px;
+   align-items: center;
+}
+
+.icono-rrss {
+   width: 50px;
+}
+
+.copyright-container {
+   color: #EFEFED;
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+}
