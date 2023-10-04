@@ -22,7 +22,6 @@
             <div class="links-container">
                 <a class="nav-link" href="#">Sobre mí</a>
                 <a class="nav-link" href="#">Proyectos</a>
-                <a class="nav-link" href="#">Skills</a>
                 <a class="nav-link" href="#">Contacto</a>
             </div>
         </div>
@@ -33,7 +32,7 @@
         <div class="hero-container">
             <div class="hero-heading">
                 <h2 class="hero-heading-titulo">Backend <br>developer.</h2>
-                <p class="hero-heading-descripcion">Soy un desarrollador de Buenos Aires, Argentina enfocado en crear soluciones de
+                <p class="hero-heading-descripcion">Soy un desarrollador de Buenos Aires, Argentina enfocado en crear soluciones con
                     aplicaciones y software.</p>
             </div>
 
@@ -87,19 +86,33 @@
             <img class="icono" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="cpp">
             <img class="icono" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="cs">
             <img class="icono" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt="net">
-            <img class="icono" src="https://inapp.com/wp-content/uploads/elementor/thumbs/sql-01-01-q05xfvfb3w2ipgcyt2vsxvv996rqtejk8kpbewucbk.png" alt="sql">
-
+            <img class="icono"
+                src="https://inapp.com/wp-content/uploads/elementor/thumbs/sql-01-01-q05xfvfb3w2ipgcyt2vsxvv996rqtejk8kpbewucbk.png"
+                alt="sql">
         </div>
-
     </section>
 
 
-
-
-
-
     <section class="contacto">
-
+        <form action="#" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Enviar</button>
+                </li>
+            </ul>
+        </form>
     </section>
 
 
