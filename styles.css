@@ -13,6 +13,10 @@ p {
    font-family: 'Inconsolata', monospace;
 }
 
+a {
+   text-decoration: none;
+}
+
 nav {
    position: fixed;
    height: 60px;
@@ -34,7 +38,6 @@ nav {
 
 .nav-logo {
    color: #ff4d74;
-   text-decoration: none;
 }
 
 .links-container {
@@ -48,7 +51,6 @@ nav {
    font-family: 'Inconsolata', monospace;
    font-size: 16px;
    color: #ffb818;
-   text-decoration: none;
 }
 
 /* SECCION 1 */
