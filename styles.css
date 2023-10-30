@@ -64,24 +64,23 @@ nav {
    display: flex;
    position: relative;
    align-items: center;
-   margin-bottom: 800px;
+   height: 100vh;
 }
 
 .hero-container {
    display: flex;
    margin: 0 auto;
    position: relative;
-   max-width: 1200px;
+   max-width: 900px;
    width: 100%;
+   align-items: center;
 }
 
 .hero-heading {
    position: absolute;
    width: 400px;
-   top: 370px;
-   right: 0;
-   bottom: 0;
-   left: 20%;
+   top: 10px;
+   left: 14%;
 }
 
 .hero-heading-titulo {
@@ -99,11 +98,8 @@ nav {
 .foto {
    max-width: 30%;
    position: absolute;
-   top: 160px;
-   right: 0;
-   bottom: 0;
-   left: 50%;
    border-radius: 100%;
+   right: 14%;
 }
 
 /* PROPIEDADES RESPONSIVE (incompleta)
@@ -142,6 +138,7 @@ nav {
 .about {
    padding-top: 100px;
    margin-bottom: 100px;
+   height: 100vh;
 }
 
 .about-container {
@@ -169,6 +166,7 @@ nav {
 .proyectos {
    background-color: #ffb818;
    padding: 120px 120px;
+   height: 100vh;
 }
 
 .proyectos-container {
@@ -214,19 +212,38 @@ nav {
 /* SECCION 4 */
 
 .skills {
-   display: flex;
-   justify-content: center;
    background-color: #EFEFED;
-   padding: 120px 120px;
+   padding-top: 60px;
+   height: 100vh;
 }
 
 .skills-container {
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
    max-width: 900px;
+}
+
+.skills-back-container {
+   display: flex;
    justify-content: space-between;
    width: 100%;
    align-items: center;
 }
+
+.skills-front-container {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+
+.skills-title-container {
+   font-size: 40px;
+   margin-bottom: 30px;
+}
+
 
 .icono-skill {
    width: 120px;
