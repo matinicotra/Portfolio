@@ -215,28 +215,24 @@ nav {
    background-color: #EFEFED;
    padding-top: 60px;
    height: 100vh;
+   display: flex;
+   justify-content: center;
 }
 
 .skills-container {
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 50px;
    max-width: 900px;
+   gap: 30px;
 }
 
-.skills-back-container {
+.icon-container {
    display: flex;
    justify-content: space-between;
    width: 100%;
    align-items: center;
-}
-
-.skills-front-container {
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   align-items: center;
+   gap: 30px;
 }
 
 .skills-title-container {
